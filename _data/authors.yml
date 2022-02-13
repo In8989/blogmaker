@@ -1,0 +1,11 @@
+In8989:
+  username: In8989      # user name : martin
+  name: Kim CheolIn          # user full name : Martin Luther King
+  url_full:             # Homepage url
+  url:
+  bio: <a href="https://github.com/In8989">웹 개발자 김철인</a>
+  # 회사정보
+  picture: assets/built/images/abraham.jpg   # author image
+  facebook:             # facebook ID
+  twitter:              # twitter ID
+  cover: False
