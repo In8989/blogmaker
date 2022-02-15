@@ -3,10 +3,10 @@ jekyll :
   description: False
   cover: assets/built/images/sky.jpg
 python :
-  name: python
+  name: command
   description: False
   cover: assets/built/images/sky.jpg
 economy :
-  name: economy
+  name: etc
   description: False
   cover: assets/built/images/sky.jpg

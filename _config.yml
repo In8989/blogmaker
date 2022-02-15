@@ -51,7 +51,7 @@ title: In8989 Blog
 description: 웹 개발자 김철인 블로그
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
-cover: assets/built/images/blog-cover.jpg
+cover: assets/built/images/sky.jpg
 # blog home에 표시될 blog cover image.
 
 logo:
@@ -125,7 +125,7 @@ destination: ../GitHubPage/
 # compile된 결과가 생성되는 폴더
 # 이 폴더안의 내용이 우리가 운영하는 블로그 내용이 컴파일되서 들어간다.
 # 이 폴더안의 내용을 github repository(https://username.github.io)에 push
-# 만약 Travis-CI를 이용할 예정이면 이 부분을 git submodule로
+# 만약 Travis-CI를 이용할 예정이면 이 부분을 python submodule로
 # github repository(https://username.github.io)에 연결해야 한다.
 
 
@@ -143,11 +143,3 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .travis.yml
-  - _posts/angular
-  - _posts/et-cetera
-  - _posts/typescript
-  - _posts/iot
-  - _posts/r
-  - _posts/economy
-  #- _posts/jekyll
-  #- _posts/python

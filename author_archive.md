@@ -25,10 +25,9 @@ subclass: 'post page'
 <h2 id="{{ this_word }}" class="tag-heading">{{ this_word | upcase }}</h2>
 <ul>
 {% for post in site.tags[this_word] %}{% if post.title != null %}
-<!-- <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a></li> -->
 <li class="entry-title"><a href="{{ post.url }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endif %}{% endfor %}
 </ul>
-</article><!-- /.hentry -->
+</article>
 {% endunless %}{% endfor %}
 </div>
